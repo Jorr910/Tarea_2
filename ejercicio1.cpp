@@ -7,11 +7,11 @@ using namespace std;
 
 int mcd(int Num_Menor, int Num_Mayor ){ //Definimos nuestras variables, fuera del punto de inicio. (Int Main)
 
-    if( Num_Mayor == 0){ //aplicamos la condicional para formar nuestro CMD
+    if( Num_Mayor == 0){ //aplicamos la condicional para formar nuestro MCD
 
         return Num_Menor;
 
-    } return mcd(Num_Mayor, Num_Menor%Num_Mayor); // CMD.
+    } return mcd(Num_Mayor, Num_Menor%Num_Mayor); // MCD.
 
 
 }
